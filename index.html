@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Ramakanth - Python Developer</title>
+    <!-- Add CSS link -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    </head>
+<body data-theme="dark">
+    <!-- Loading Screen -->
+    <div class="loading" id="loading">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <!-- Animated Background -->
+    <div class="gradient-bg"></div>
+    <div class="particles" id="particles"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">SRK</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <button class="theme-toggle" id="theme-toggle">
+                        <i class="fas fa-moon" id="theme-icon"></i>
+                    </button>
+                </li>
+            </ul>
+            <div class="mobile-menu" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Hi, I'm <span class="gradient-text"> <br> Sri Ramakanth</span></h1>
+                <h2>Python Developer & AI Enthusiast</h2>
+                <p>Crafting innovative solutions with code. Passionate about artificial intelligence, machine learning, and creating impactful digital experiences.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-envelope"></i>
+                        Get In Touch
+                    </a>
+                    <a href="#projects" class="btn btn-secondary">
+                        <i class="fas fa-folder"></i>
+                        View Projects
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-card">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 7842671226</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>sriramakanthpendikatla84@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Vijayawada, India</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/sri-rama-kanth-pendikatla-080105288/" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/sriramakanthpendikatla" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://twitter.com/sriramakanthp" target="_blank" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="section-title">
+            <h2>About <span class="gradient-text">Me</span></h2>
+            <p>Get to know me better</p>
+        </div>
+        <div class="about-container">
+            <div class="about-image">
+                <div class="image-wrapper">
+                    <img src="C:\Users\srira\OneDrive\Desktop\sriram\sriram\Sriram.jpg" alt="Sri Ramakanth">
+                    <div class="image-frame"></div>
+                </div>
+            </div>
+            <div class="about-content">
+                <h3>Who am I?</h3>
+                <p>I am a dedicated <strong>Python Developer</strong> with a passion for crafting elegant and efficient solutions to complex problems. My journey in technology began with a curiosity about how digital systems work and evolved into a career focused on building impactful applications.</p>
+                
+                <h3>My Journey</h3>
+                <p>With a strong foundation in computer science fundamentals and years of hands-on experience, I specialize in developing robust applications using Python and various frameworks. I'm particularly fascinated by the potential of artificial intelligence and machine learning to transform industries.</p>
+                
+                <h3>Beyond Coding</h3>
+                <p>When I'm not immersed in code, you'll find me exploring new technologies, contributing to open-source projects, or sharing my knowledge through mentoring. I believe in continuous learning and staying ahead of industry trends.</p>
+                
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">3rd</div>
+                        <div class="stat-label">Year</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Projects</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label">Certifications</div>
+                    </div>
+                </div>
+                
+                <a href="#contact" class="btn btn-primary about-cta">
+                    <i class="fas fa-paper-plane"></i>
+                    Let's Work Together
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section" id="skills">
+        <div class="section-title">
+            <h2>Technical <span class="gradient-text">Expertise</span></h2>
+            <p>Mastering the tools that bring ideas to life</p>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fab fa-python"></i>
+                </div>
+                <h3 class="skill-name">Python</h3>
+                <p class="skill-level">Advanced Programming</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fab fa-html5"></i>
+                </div>
+                <h3 class="skill-name">HTML & CSS</h3>
+                <p class="skill-level">Web Development</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3 class="skill-name">C & Java</h3>
+                <p class="skill-level">Programming Languages</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fas fa-database"></i>
+                </div>
+                <h3 class="skill-name">Database Management</h3>
+                <p class="skill-level">Data Architecture</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fas fa-paint-brush"></i>
+                </div>
+                <h3 class="skill-name">UI/UX Design</h3>
+                <p class="skill-level">Design Principles</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fab fa-git-alt"></i>
+                </div>
+                <h3 class="skill-name">Git & Linux</h3>
+                <p class="skill-level">Version Control & OS</p>
+            </div>
+            <!-- Added AI Skill -->
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <h3 class="skill-name">Artificial Intelligence</h3>
+                <p class="skill-level">AI Concepts & Applications</p>
+            </div>
+            <!-- Added ML Skill -->
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <h3 class="skill-name">Machine Learning</h3>
+                <p class="skill-level">ML Algorithms & Models</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="section-title">
+            <h2>Featured <span class="gradient-text">Projects</span></h2>
+            <p>Transforming ideas into reality through code</p>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-header gradient-1">
+                    <i class="fas fa-lock"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">
+                        <a href="https://noteapp-5-knz5.onrender.com/login?next=%2F" target="_blank" class="project-link">Authentication Website</a>
+                    </h3>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">Database</span>
+                    </div>
+                    <p class="project-description">
+                        Developed a comprehensive web application featuring secure user registration and login functionality with robust database management.
+                    </p>
+                </div>
+            </div>
+            <!-- AR Shopping Assistant Project -->
+            <div class="project-card">
+                <div class="project-header gradient-2">
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">
+                        <a href="https://sriramakanthpendikatla.github.io/AR/" target="_blank" class="project-link">AR Shopping Assistant</a>
+                    </h3>
+                    <div class="project-tech">
+                        <span class="tech-tag">AR</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Web</span>
+                    </div>
+                    <p class="project-description">
+                        Created an Augmented Reality shopping assistant web page to enhance user experience with interactive product visualization.
+                    </p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-header gradient-3">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">
+                        <a href="https://github.com/sriramakanthpendikatla/VOICEAI" target="_blank" class="project-link">AI Voice Assistant</a>
+                    </h3>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Speech Recognition</span>
+                        <span class="tech-tag">AI</span>
+                    </div>
+                    <p class="project-description">
+                        Developed a smart AI voice assistant using Python that interacts with users via voice commands.
+                    </p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-header gradient-4">
+                    <i class="fas fa-globe"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">E-Commerce Platform</h3>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML/CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">MySQL</span>
+                    </div>
+                    <p class="project-description">
+                        Designed and developed a full-stack e-commerce platform with product catalog, cart functionality, and payment integration.
+                    </p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-header gradient-5">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Task Management App</h3>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Django</span>
+                        <span class="tech-tag">REST API</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                    </div>
+                    <p class="project-description">
+                        Built a collaborative task management application with real-time updates, user authentication, and team features.
+                    </p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-header gradient-6">
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Python Game Development</h3>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Pygame</span>
+                        <span class="tech-tag">OOP</span>
+                        <span class="tech-tag">Physics</span>
+                    </div>
+                    <p class="project-description">
+                        Developed an engaging 2D game using Python and Pygame library with custom physics engine and level design.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="cert-section" id="certifications">
+        <div class="section-title">
+            <h2>Certifications & <span class="gradient-text">Achievements</span></h2>
+            <p>Continuous learning and growth</p>
+        </div>
+        <div class="cert-grid">
+            <div class="cert-card" data-cert="python-hackerrank">
+                <div class="cert-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <div class="cert-info">
+                    <h4>Python Programming</h4>
+                    <p>HackerRank</p>
+                </div>
+            </div>
+            <div class="cert-card" data-cert="startup-idea">
+                <div class="cert-icon">
+                    <i class="fas fa-trophy"></i>
+                </div>
+                <div class="cert-info">
+                    <h4>First Place - Startup Idea</h4>
+                    <p>Anurag University National Student Forum 2.0</p>
+                </div>
+            </div>
+            <div class="cert-card" data-cert="Python for Data Science">
+                <div class="cert-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="cert-info">
+                    <h4>Python for Data science</h4>
+                    <p>NPTEL</p>
+                </div>
+            </div>
+            <div class="cert-card" data-cert="data-science-nptel">
+                <div class="cert-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="cert-info">
+                    <h4>Introduction to Database Systems</h4>
+                    <p>NPTEL</p>
+                </div>
+            </div>
+            <div class="cert-card" data-cert="ui-ux-skillup">
+                <div class="cert-icon">
+                    <i class="fas fa-paint-brush"></i>
+                </div>
+                <div class="cert-info">
+                    <h4>Basics of UI/UX</h4>
+                    <p>Simplilearn - SkillUp</p>
+                </div>
+            </div>
+            <div class="cert-card" data-cert="generative-ai-google">
+                <div class="cert-icon">
+                    <i class="fas fa-cloud"></i>
+                </div>
+                <div class="cert-info">
+                    <h4>Generative AI in Google Cloud</h4>
+                    <p>Skill Boost Program</p>
+                </div>
+            </div>
+            <div class="cert-card" data-cert="prompt-engineering-ibm">
+                <div class="cert-icon">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <div class="cert-info">
+                    <h4>Introduction to Prompt Engineering</h4>
+                    <p>IBM - edX</p>
+                </div>
+            </div>
+            <div class="cert-card" data-cert="google-analytics">
+                <div class="cert-icon">
+                    <i class="fas fa-chart-pie"></i>
+                </div>
+                <div class="cert-info">
+                    <h4>Google Analytics Certification</h4>
+                    <p>Google</p>
+                </div>
+            </div>
+            <div class="cert-card" data-cert="azure-sql">
+                <div class="cert-icon">
+                    <i class="fas fa-database"></i>
+                </div>
+                <div class="cert-info">
+                    <h4>Build AI Apps with Azure SQL</h4>
+                    <p>Microsoft</p>
+                </div>
+            </div>
+            <div class="cert-card" data-cert="havana-25-certificate">
+                <div class="cert-icon">
+                    <i class="fas fa-certificate"></i>
+                </div>
+                <div class="cert-info">
+                    <h4>HAVANA'25 Certificate</h4>
+                    <p>HAVANA 2025</p>
+                </div>
+            </div>
+            <div class="cert-card" data-cert="fundamental-ai-microsoft">
+                <div class="cert-icon">
+                    <i class="fas fa-microchip"></i>
+                </div>
+                <div class="cert-info">
+                    <h4>Fundamental AI Concepts</h4>
+                    <p>Microsoft</p>
+                </div>
+            </div>
+            <div class="cert-card" data-cert="fundamental-ml-microsoft">
+                <div class="cert-icon">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <div class="cert-info">
+                    <h4>Fundamental of Machine Learning</h4>
+                    <p>Microsoft</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificate Modal -->
+    <div class="modal-overlay" id="certificate-modal">
+        <div class="modal-container">
+            <div class="modal-header">
+                <h3 class="modal-title" id="modal-title">Certificate Title</h3>
+                <button class="modal-close" id="modal-close">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-iframe-container">
+                    <iframe id="cert-iframe" class="modal-iframe" src="" title="Certificate" scrolling="yes"></iframe>
+                    <div id="cert-error" class="cert-error">
+                        <i class="fas fa-exclamation-circle"></i>
+                        <p>Certificate PDF failed to load. Please try the download link below.</p>
+                        <a href="#" class="cert-error-btn" id="error-download-btn" target="_blank" download>
+                            <i class="fas fa-download"></i> Download Certificate
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <span id="modal-issuer">Issuer: </span>
+                <a href="#" class="modal-download" id="modal-download" target="_blank" download>
+                    <i class="fas fa-download"></i> Download
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="contact-container">
+            <div class="contact-info-section">
+                <h3>Let's <span class="gradient-text">Connect</span></h3>
+                <p>I'm always excited to connect with fellow developers, potential collaborators, or anyone interested in technology. Let's create something amazing together!</p>
+                
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>sriramakanthpendikatla84@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+91 7842671226</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Vijayawada, India</span>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/sri-rama-kanthpendikatla-080105288" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/sriramakanthpendikatla" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>                    <a href="https://twitter.com/sriramakanthp" target="_blank" class="social-link">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://instagram.com/sriramakanthp" target="_blank" class="social-link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form action="https://formspree.io/f/mgvkgvjk" method="POST">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required placeholder="John Doe">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required placeholder="john@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required placeholder="Hi Sri, I'd like to discuss..."></textarea>
+                    </div>
+                    <button type="submit" class="form-button">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>   
+        <p>© 2025 Pendikatla Sri Ramakanth.</p>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <div class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- Add JavaScript at the end of body -->
+    <script src="script.js"></script>
+</body>
+</html>
